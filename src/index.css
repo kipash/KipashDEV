@@ -1,3 +1,7 @@
+body {
+  background-color: gray;
+}
+
 body, div, p {
   margin: 0;
 }

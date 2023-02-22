@@ -1,4 +1,5 @@
 import './App.css'
+import Test from './content/Test.mdx'
 
 function App() {
   return (
@@ -7,27 +8,7 @@ function App() {
         <p className="hero-text">Kryštof Tomanů</p>
       </div>
       <div className="ContentWrapper">
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
-        <p>Kippy</p>
+        <Test/>
       </div>
     </div>
   )
