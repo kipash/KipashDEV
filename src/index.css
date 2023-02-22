@@ -1,9 +1,15 @@
 body {
-  background-color: gray;
+  /* background-color: gradi gray; */
+  background-image: linear-gradient(to bottom, #5a5a5a, #484848, #373737, #272727, #181818);
 }
 
 body, div, p {
   margin: 0;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .root {

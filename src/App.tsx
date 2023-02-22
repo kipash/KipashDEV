@@ -1,5 +1,7 @@
+import { ThemeProvider, Flex, NavLink } from 'theme-ui'
+import { tosh } from '@theme-ui/presets'
 import './App.css'
-import Test from './content/Test.mdx'
+import Main from './content/Main.mdx'
 
 function App() {
   return (
@@ -7,10 +9,22 @@ function App() {
       <div className="hero">
         <p className="hero-text">Kryštof Toman</p>
       </div>
-      <div className="ContentWrapper">
-        <nav><button>A</button><button>B</button><button>C</button></nav>
-        <Test/>
-      </div>
+      <ThemeProvider theme={tosh}>
+        <div className="ContentWrapper">
+          <Flex as="nav">
+            <NavLink href="#!" p={2}>
+              Nav 1
+            </NavLink>
+            <NavLink href="#!" p={2}>
+              Nav 2
+            </NavLink>
+            <NavLink href="#!" p={2}>
+              Nav 3
+            </NavLink>
+          </Flex>
+            <Main/>
+        </div>
+      </ThemeProvider>
     </div>
   )
 }

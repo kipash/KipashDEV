@@ -1,7 +1,7 @@
 .app {
   margin: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   max-width:100%;
 }
 
@@ -9,7 +9,7 @@
   background: url("assets/bcg.jpg");
   
   /* Set a specific height */
-  height: 80%;
+  height: 80vh;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -25,8 +25,8 @@
   top: 0.5rem;
   left: 0.8rem;
   /* transform: translate(-50%, -50%); */
-  color: rgb(255, 255, 255);
-  text-shadow: black 0.1em 0.1em 0.2em;
+  /* color: rgb(255, 255, 255); */
+  /* text-shadow: black 0.1em 0.1em 0.2em; */
 }
 
 .hero-arrow {
@@ -42,6 +42,6 @@
 
 .ContentWrapper {
   position: relative;
-  left: calc((100vw / 2) - 500px);
-  max-width: 1000px;
+  left: calc((100vw / 2) - 450px);
+  max-width: 900px;
 }
