@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="app">
       <div className="hero">
-        <p className="hero-text">Kryštof Toman</p>
+        <div className="hero-fade"/>
       </div>
       <ThemeProvider theme={tosh}>
         <div className="ContentWrapper">

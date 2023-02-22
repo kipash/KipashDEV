@@ -3,13 +3,17 @@
   width: 100vw;
   height: 100%;
   max-width:100%;
+
+  background-color: #373737;
+  /* background-image: linear-gradient(to bottom, #5a5a5a, #484848, #373737, #272727, #181818); */
+  background-position: top;
 }
 
 .hero {
   background: url("assets/bcg.jpg");
   
   /* Set a specific height */
-  height: 80vh;
+  height: 86vh;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -18,26 +22,14 @@
   position: relative;
 }
 
-.hero-text {
-  /* text-align: left; */
-  font-size: 24px;
+.hero-fade {
   position: absolute;
-  top: 0.5rem;
-  left: 0.8rem;
-  /* transform: translate(-50%, -50%); */
-  /* color: rgb(255, 255, 255); */
-  /* text-shadow: black 0.1em 0.1em 0.2em; */
-}
+  width: 100%;
+  height: 20%;
+  top: 80%;
+  
 
-.hero-arrow {
-  background: url("assets/bcg.jpg");
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: linear-gradient(to bottom, #37373700, #37373744, #37373777, #373737aa, #373737ff);
 }
 
 .ContentWrapper {
