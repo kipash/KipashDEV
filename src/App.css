@@ -9,7 +9,7 @@
   background: url("assets/bcg.jpg");
   
   /* Set a specific height */
-  height: 100%;
+  height: 80%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -38,4 +38,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.ContentWrapper {
+  position: relative;
+  left: calc((100vw / 2) - 500px);
+  max-width: 1000px;
 }
