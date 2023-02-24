@@ -3,7 +3,6 @@ import { tosh } from '@theme-ui/presets'
 import './App.css'
 import Main from './content/Main.mdx'
 import { Needle } from './Needle'
-import "@needle-tools/engine";
 
 function App() {
   return (

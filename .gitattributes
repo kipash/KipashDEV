@@ -1,8 +1,8 @@
-* text=auto eol=lf
+* text eol=lf
 
 # Media formats
-*.jpg filter=lfs diff=lfs merge=lfs eol=lf binary
-*.jpeg filter=lfs diff=lfs merge=lfs eol=lf binary
-*.png filter=lfs diff=lfs merge=lfs eol=lf binary
-*.icon filter=lfs diff=lfs merge=lfs eol=lf binary
-*.glb filter=lfs diff=lfs merge=lfs eol=lf binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.icon binary
+*.glb binary
