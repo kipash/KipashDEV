@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="app">
       <div className="hero">
-        <Needle path="/src/assets/sceneRoot.glb"/>
+        <Needle path="assets/sceneRoot.glb"/>
         <div className="hero-fade"/>
       </div>
       <ThemeProvider theme={tosh}>
