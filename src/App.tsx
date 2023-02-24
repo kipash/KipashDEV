@@ -2,16 +2,20 @@ import { ThemeProvider, Flex, NavLink } from 'theme-ui'
 import { tosh } from '@theme-ui/presets'
 import './App.css'
 import Main from './content/Main.mdx'
+import { Needle } from './Needle'
+import "@needle-tools/engine";
 
 function App() {
   return (
     <div className="app">
       <div className="hero">
+        <Needle path="./src/assets/sceneRoot.glb"/>
         <div className="hero-fade"/>
       </div>
       <ThemeProvider theme={tosh}>
+        
         <div className="ContentWrapper">
-          <Flex as="nav">
+          {/* <Flex as="nav">
             <NavLink href="#!" p={2}>
               Nav 1
             </NavLink>
@@ -21,8 +25,8 @@ function App() {
             <NavLink href="#!" p={2}>
               Nav 3
             </NavLink>
-          </Flex>
-            <Main/>
+          </Flex> */}
+          <Main/>
         </div>
       </ThemeProvider>
     </div>
