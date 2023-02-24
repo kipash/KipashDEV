@@ -11,11 +11,16 @@ export const Needle = ({ path }: NeedleProps) =>
 
   let element = document.createElement('needle-engine');
   element.setAttribute("src", path);
+  element.setAttribute("loadfinished", "");
 
   React.useEffect(() => {
     console.log("Needle: useEffect"); 
     if(parentRef.current)
-        (parentRef.current as HTMLElement).appendChild(element);
+    {
+      const parentElem = (parentRef.current as HTMLElement);
+      if(parentElem && element.parentNode == null)
+        parentElem.appendChild(element);
+    }
   });
 
   return (
