@@ -10,7 +10,7 @@
 }
 
 .hero {
-  background: url("assets/bcg.jpg");
+  background: url("/bcg.jpg");
   
   /* Set a specific height */
   height: 86vh;
