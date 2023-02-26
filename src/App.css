@@ -10,7 +10,7 @@
 }
 
 .hero {
-  background: url("/bcg.jpg");
+  /* background: url("/bcg.jpg"); */
   
   /* Set a specific height */
   height: 86vh;
@@ -28,7 +28,6 @@
   height: 20%;
   top: 80%;
   
-
   background-image: linear-gradient(to bottom, #37373700, #37373744, #37373777, #373737aa, #373737ff);
 }
 
